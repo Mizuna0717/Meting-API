@@ -1,0 +1,11 @@
+name = "meting-api"
+main = "src/index.ts"
+compatibility_date = "2024-09-04"
+node_compat = true
+
+[build]
+command = "npm run build:all"
+
+[build.upload]
+format = "modules"
+dir = "dist"
